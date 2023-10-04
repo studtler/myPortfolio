@@ -4,12 +4,10 @@
     box-sizing: border-box;
     font-family: 'Gabarito', serif;
     /* border:  1px solid red; */
-    list-style: none;
-}
+    /* outline: 2px solid limegreen !important; */
+    /* background-color: rgb(0 100 0 / 0.1) !important; */
 
-body, html {
-    min-height: fit-content;    
-    
+    list-style: none;
 }
 
 /* main Container setup */
@@ -18,38 +16,39 @@ body, html {
     /* height: 100vh; */
     text-align: center;
     padding: 0px 1em 0px 1em;
+    height: 100vh;
 }
 
 /* profilePic/Description */
 #container1 { 
-    grid-column: 1 / span 2; 
-    grid-row: auto;
+    grid-column: 1; 
     display: flex;
-    justify-content: center;
     align-items: center;
     /* text-align: center; */
 }
 
+
 .svgList { 
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 img[src*="svg"] { 
-  height: 80px;
+  height: 60px;
 }
 
 /* User Profile withbackground Style */
 .imgMe img { 
+    margin: 0 auto;
     border-radius: 50%;
-background: #ffffff;
-box-shadow:  -31px 31px 62px #9e9e9e,
-             31px -31px 62px #ffffff;
+background: #f7f7f7;
+box-shadow:  -18px -18px 70px #686868,
+             18px 18px 70px #ffffff;
              
 }
 
-.imgMe > img {
+.imgMe img {
   height: 18em;
 }
 
@@ -61,13 +60,11 @@ h2 {
     color: green;
 }
 
-.design-background { 
-    background-color: rgb(18, 17, 17);    
-}
-
 /* midContainer Descriptive-info */
-#grid-item > p {
-margin-top: 1em;
+
+#grid-item p  {
+max-width: 60%;
+margin: 1em auto;
 }
 
 /*container logos SVGFILES Footer*/
@@ -76,12 +73,16 @@ margin-top: 1em;
     grid-row: 2;
 }
 
+#contact-Contain  { 
+    display: flex;
+}
+
+
 
 @media screen and (max-width: 700px) {
     #container1, #grid-item {
         display: block;
         padding: 3em;
-        height: 100%;
-    }
+}
 }
 

@@ -8,54 +8,168 @@ html {
     list-style: none;
     padding: 0px;
     margin: 0px;
-    box-sizing: border-box;
     font-family: 'Gabarito', serif;
     /* border:  1px solid red; */
-    outline: 2px solid limegreen !important;
-    /* background-color: rgb(0 100 0 / 0.1) !important; */
+    /* outline: 2px solid rgb(73, 179, 46) !important; */
+    background-color: rgb(0 100 0 / 0.1) !important;
   }
-
+body { 
+  height: 100%;
+}
+  
 /* main Container setup */
 #main-container { 
-    display: grid;
-    /* height: 100vh; */
-    text-align: center;
-    padding: 0px 1em 0px 1em;
-    height: 100vh;
+  display: grid;
 }
+
+#header-tab { 
+  grid-column: 1 / span 2;
+}
+
+.header-tabs { 
+  display: flex;
+  align-items: center;
+  /* margin-left: 2em; */
+}
+
+li { 
+  padding-left: 3em;
+}
+
+#mid-Container { 
+grid-column: 1 /span 2;
+grid-row: auto;
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin-top: 5em;
+}
+
+
+/* discord update */
+
+/* .profilePic { 
+  position: relative;
+} */
+/* Noting change Discord */
+.profilePic img { 
+
+  height: 20em;
+  border-radius: 50%;
+background: linear-gradient(145deg, #ffffff, #dedede);
+box-shadow:  31px 31px 78px #838383,
+             -31px -31px 78px #ffffff;
+             z-index: 1;  
+             filter: grayscale();
+   
+}
+/*adding from discord */
+/* .pickle-Dick{ 
+position: absolute;
+border: 1em solid transparent;
+width: 100%;
+height: 100%;
+border-radius: 50%;
+box-shadow: inset 0px 0px 50px rgba(0, 0, 0, 0.5);
+} */
+
+
+
+
+ .text-container strong:nth-child(2) { 
+  font-size: 4rem;
+}
+
+.text-container #sammyHi { 
+  background: linear-gradient(to right, #191D88 ,#1450A3,#337CCF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+ 
+}
+
+button {
+  margin-top: 1em;
+  padding: 1.3em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #FFC436;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  background-color: #23c483;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+button:active {
+  transform: translateY(-1px);
+}
+
+.block-fam { 
+  z-index: -2;
+  position: relative;
+}
+.blob1 svg { 
+  z-index: -2;
+  right: -18em;
+  top: -9em;
+  position: absolute;
+  height: 55em;
+}
+
+
+.blob2 svg {
+  z-index: -2;
+ height: 45em;
+ position: absolute;
+ top: 30em;
+
+}
+
+
 
 /* profilePic/Description */
-#container1 { 
-    grid-column: 1; 
+/* #container1 { 
+    grid-column: 1 / span 2; 
     display: flex;
     align-items: center;
-    /* text-align: center; */
-}
+} */
 
 
-.svgList { 
+/* .svgList { 
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-}
+} */
 
-img[src*="svg"] { 
-  height: 60px;
-}
+/* img[src*="svg"] { 
+  height: 100px;
+} */
+/* ProfileContainer */
+/* .imgMe { 
+  width: 45%; */
+  /* border: red solid; */
 
-/* User Profile withbackground Style */
-.imgMe img { 
-    margin: 0 auto;
-    border-radius: 50%;
-background: #f7f7f7;
-box-shadow:  -18px -18px 70px #686868,
-             18px 18px 70px #ffffff;
-             
-}
-
-.imgMe img {
-  height: 18em;
-}
+/*
+/* .imgMe img { 
+    /* margin: 0 auto; */
+    /*  
+    border-radius: 23px;
+    background: #f7f7f7;
+    box-shadow:  22px 22px 43px #d2d2d2,
+                 -22px -22px 43px #ffffff;
+ height: 18em;
+} 
 
 h2 { 
     margin-bottom: 1em;
@@ -66,28 +180,29 @@ h2 {
 }
 
 /* midContainer Descriptive-info */
-
+/* 
 #grid-item p  {
 max-width: 60%;
-margin: 1em auto;
-}
+ margin: 1em auto;
+} */
+
 
 /*container logos SVGFILES Footer*/
-#containerFooter { 
+/* #containerFooter { 
     grid-column:  1 / span 2;
     grid-row: 2;
-}
-
+} */
+/* 
 #contact-Contain  { 
     display: flex;
-}
+} */
 
 
 
-@media screen and (max-width: 700px) {
+/* @media screen and (max-width: 700px) {
     #container1, #grid-item {
         display: block;
         padding: 3em;
 }
-}
+} */
 

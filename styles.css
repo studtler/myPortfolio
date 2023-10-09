@@ -20,14 +20,11 @@ body {
 /* main Container setup */
 #main-container { 
   display: grid;
-  
-
-
 }
-.blob1 svg { 
 
-width: 100vh;
-height: 100vh;
+.blob1 svg { 
+  width: 100vh;
+  height: 100vh;
   z-index: -2;
   right: 2em;
   top: -9em;
@@ -55,12 +52,13 @@ height: 100vh;
 .header-tabs { 
   display: flex;
   align-items: center;
+  
   /* margin-left: 2em; */
 }
-
-li { 
-  padding-left: 3em;
-}
+  a {  
+text-decoration: none;
+padding-left: 3em;
+} 
 
 #mid-Container { 
 grid-column: 1 / span 2;
@@ -70,6 +68,7 @@ align-items: center;
 margin-top: 5em;
 justify-content: space-around;
 line-height: 3em;
+
 
 }
 
@@ -92,6 +91,7 @@ box-shadow: 12px 8px 14px 2px rgba(0,0,0,0.71);
 }
 
 button {
+
   margin-top: 1em;
   padding: 1.3em 3em;
   font-size: 12px;
@@ -237,11 +237,13 @@ text-align: center;
 .bot-lang img{ 
   height: 50px;
 }
-/* @media screen and (max-width: 700px) {
-    #container1, #grid-item {
-        display: block;
-        padding: 3em;
-}
 
+
+ @media screen and (max-width: 768px) {
+    #mid-container {
+      background-color: #000000;
+      
+}
+ }
 
 

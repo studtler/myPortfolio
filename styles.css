@@ -127,8 +127,9 @@ button:active {
   transform: translateY(-1px);
 }
 
-button a:nth-child(a) {
+button a {
 text-align: center;
+padding-right: 33px;
 }
 
 

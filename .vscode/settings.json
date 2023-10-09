@@ -1,3 +1,12 @@
-{
-    "liveServer.settings.port": 5501
-}
+// {
+//     "liveServer.settings.port": 5501
+// }
+
+// setTimeout(function() {
+//     document.querySelector('.content').classList.add('loaded');
+// }, 1000); // Adjust the delay (in milliseconds) as needed
+
+
+
+
+

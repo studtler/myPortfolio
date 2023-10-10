@@ -244,6 +244,10 @@ box-shadow:-6px 8px 30px 1px rgba(0,0,0,0.71);
   padding: 0 3% 0 3%;
 }
 
+.text-container { 
+  padding: 1%;
+}
+
 } 
 
 

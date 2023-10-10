@@ -67,9 +67,9 @@ line-height: 2.3em;
 
 }
 
-.text-container strong {
+.text-container p:nth-child(2){
   font-size: 4rem;
-  line-height:1.5em;
+  line-height:1.2em;
 }
 
 .text-container #sammyHi {
@@ -145,8 +145,9 @@ button a {
   box-shadow: -6px 8px 30px 1px rgba(0, 0, 0, 0.71);
 }
 
-.bottom-description strong:nth-child(2) {
-  font-size: 3rem;
+.bottom-description p:nth-child(2) {
+  font-size: 4rem;
+  line-height: 1.2em;
 }
 
 #languages {
@@ -167,8 +168,8 @@ button a {
 }
 
 .bot-lang p:nth-child(1) {
-  font-size: 30px;
-  padding: 0.5em;
+  font-size: 2.5rem;
+  padding: 0.2em;
 }
 
 .bot-lang img {

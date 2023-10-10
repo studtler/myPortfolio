@@ -26,6 +26,7 @@ html {
   display: flex;
   align-items: center;
 }
+
 a {
   text-decoration: none;
   padding-left: 2em;
@@ -64,9 +65,9 @@ a {
   max-width: 400px;
 }
 
-.text-container strong > p {
+.text-container strong {
   font-size: 4rem;
-  line-height: 1em;
+  line-height:1.5em;
 }
 
 .text-container #sammyHi {
@@ -130,6 +131,7 @@ button a {
 }
 .bottom-description strong {
   font-size: 4rem;
+  line-height:1.5em;
 }
 
 .footerPic img {

@@ -161,7 +161,7 @@ button a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  gap: 30px;
+  gap: 2px;
 }
 
 .bot-lang p:nth-child(1) {
@@ -245,7 +245,7 @@ h1 {
 
   .footerPic {
     margin-top: 2em;
-    padding: 0 3% 0 3%;
+    /* padding: 0 3% 0 3%; */
   }
 
   .text-container {

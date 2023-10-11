@@ -44,7 +44,7 @@ a {
   display: flex;
   align-items: center;
   margin-top: 5em;
-  justify-content: space-around;
+  justify-content: space-evenly;
   line-height: 1.6em;
 }
 
@@ -121,8 +121,7 @@ button a {
   justify-content: space-evenly;
   line-height: 2.3em;
   width: 100%;
-  gap: 2em;
-  margin-top: 4em;
+  margin-top:6em;
 }
 
 .bottom-description {
@@ -130,6 +129,7 @@ button a {
   max-width: 400px;
   display: flex;
   flex-direction: column;
+  padding: 0 1.5% 0 1.5%;
 }
 .bottom-description strong {
   font-size: 4rem;
@@ -248,7 +248,7 @@ h1 {
 
   .footerPic {
     margin-top: 2em;
-    padding: 0 3% 0 3%;
+    padding: 0 2% 0 2%;
   }
 
   .text-container {

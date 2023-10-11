@@ -156,10 +156,11 @@ button a {
 }
 
 .list-lang {
+  padding: 1em;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  gap: 2px;
+  gap: 1em;
 }
 
 .bot-lang p:nth-child(1) {

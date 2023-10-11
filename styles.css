@@ -4,10 +4,8 @@ html {
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
   list-style: none;
   padding: 0px;
-  margin: 0px;
   font-family: "Gabarito", serif;
   /* outline: 2px solid rgb(73, 179, 46) !important; */
   /* background-color: rgb(0 100 0 / 0.1) !important; */
@@ -23,7 +21,6 @@ html {
 
 #headtab {
   grid-column: 1 / span 2;
-  display: inline-flex;
 }
 
 .header-tabs {
@@ -47,7 +44,7 @@ a {
   grid-row: auto;
   display: flex;
   align-items: center;
-  margin-top: 5em;
+  margin-top: 3em;
   justify-content: space-evenly;
   /* line-height: 1.6em; */
 }
@@ -67,19 +64,13 @@ a {
   text-align: center;
   /* margin: 0 1rem; */
   max-width: 400px;
-line-height: 2.0em;
-
+  line-height: 2.0em;
 }
+
 
 .text-container p:nth-child(1) {
   font-size: 4rem;
-  line-height:1.2em;
-}
-
-.text-container #sammyHi {
-  background: linear-gradient(to right, #000000, #000000, #000000);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  /* line-height:1.2em; */
 }
 
 button {
@@ -136,6 +127,7 @@ button a {
   /* padding: 0 1.5% 0 1.5%; */
   padding: 1em;
   line-height: 2.0em;
+  
 
 }
 
@@ -148,7 +140,7 @@ button a {
   box-shadow: -6px 8px 30px 1px rgba(0, 0, 0, 0.71);
 }
 
-.bottom-description p:nth-child(2) {
+.bottom-description p:nth-child(1) {
   font-size: 4rem;
   line-height: 1.2em;
 }

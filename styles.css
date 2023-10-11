@@ -129,11 +129,9 @@ button a {
   max-width: 400px;
   display: flex;
   flex-direction: column;
-  padding: 0 1.5% 0 1.5%;
-}
-.bottom-description strong {
-  font-size: 4rem;
-  line-height:1.5em;
+  /* padding: 0 1.5% 0 1.5%; */
+  padding: 1em;
+
 }
 
 .footerPic img {
@@ -178,7 +176,11 @@ button a {
 
 .bg {
   animation: slide 3s ease-in-out infinite alternate;
-  background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+  background-image: linear-gradient(-60deg, rgb(93, 139, 141) 50%, rgb(190, 198, 190) 50%);
+
+  /* background-image: linear-gradient(-60deg, rgb(211, 214, 142) 50%, rgb(159, 122, 85) 50%); */
+
+  /* background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%); */
   bottom: 0;
   left: -50%;
   opacity: 0.5;
@@ -195,19 +197,6 @@ button a {
 
 .bg3 {
   animation-duration: 5s;
-}
-
-.content {
-  background-color: rgba(255, 255, 255, 0.8);
-  border-radius: 0.25em;
-  box-shadow: 0 0 0.25em rgba(0, 0, 0, 0.25);
-  box-sizing: border-box;
-  left: 50%;
-  padding: 10vmin;
-  position: fixed;
-  text-align: center;
-  top: 50%;
-  transform: translate(-50%, -50%);
 }
 
 h1 {

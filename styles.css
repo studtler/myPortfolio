@@ -52,7 +52,7 @@ a {
   align-items: center;
   margin-top: 5em;
   justify-content: space-evenly;
-  line-height: 1.6em;
+  /* line-height: 1.6em; */
 }
 
 .profilePic img {
@@ -68,13 +68,13 @@ a {
   display: flex;
   flex-direction: column;
   text-align: center;
-  margin: 0 1rem;
+  /* margin: 0 1rem; */
   max-width: 400px;
-line-height: 2.3em;
+line-height: 2.0em;
 
 }
 
-.text-container p:nth-child(2) {
+.text-container p:nth-child(1) {
   font-size: 4rem;
   line-height:1.2em;
 }
@@ -126,9 +126,9 @@ button a {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  line-height: 2.3em;
+  /* line-height: 2.3em; */
   width: 100%;
-  margin-top:6em;
+  margin-top:2em;
 }
 
 .bottom-description {
@@ -138,6 +138,7 @@ button a {
   flex-direction: column;
   /* padding: 0 1.5% 0 1.5%; */
   padding: 1em;
+  line-height: 2.0em;
 
 }
 

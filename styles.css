@@ -13,12 +13,9 @@ html {
   /* background-color: rgb(0 100 0 / 0.1) !important; */
 }
 
-body { 
+ body { 
   margin: 0 ;
-  /* overflow: none; */
-}
-
-
+} 
 
 #main {
   display: grid;
@@ -222,6 +219,9 @@ h1 {
 
 @media screen and (max-width: 768px) {
  
+  body { 
+    height: 100sbh;
+  }
 
   #mid-Container {
     display: flex;

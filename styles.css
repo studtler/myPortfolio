@@ -24,6 +24,9 @@ html {
   display: flex;
   align-items: center;
 }
+.header-tabs img {
+  height: 3rem;
+}
 
 a {
   text-decoration: none;
@@ -75,7 +78,7 @@ button {
   width: 200px;
   margin-top: 1em;
   padding: 1.3em 3em;
-  font-size: 12px;
+  font-size: 12px; 
   text-transform: uppercase;
   letter-spacing: 2.5px;
   font-weight: 500;
@@ -124,8 +127,6 @@ button a {
   /* padding: 0 1.5% 0 1.5%; */
   padding: 1em;
   line-height: 2.0em;
-  
-
 }
 
 .footerPic img {
@@ -149,7 +150,7 @@ button a {
   justify-content: center;
   margin-top: 8em;
   text-align: center;
-  filter: saturate(3);
+  /* filter: saturate(3); */
 }
 
 .list-lang {

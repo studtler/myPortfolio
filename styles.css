@@ -874,6 +874,7 @@ button a {
   flex-wrap: wrap;
   justify-content: space-evenly;
   gap: 10px;
+  filter: contrast(2);
 }
 
 .bot-lang p:nth-child(1) {

@@ -135,7 +135,7 @@ body,ul {
     background: radial-gradient(ellipse at bottom, #1b2735 0%,#090a0f 100%);
 } */
 
-#title {
+/* #title {
     position: absolute;
     top: 50%;
     left: 0;
@@ -154,7 +154,7 @@ body,ul {
     background: -webkit-linear-gradient(white, #38495a);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
+} */
 
 #stars {
     width: 1px;
@@ -951,9 +951,9 @@ button a {
 
 @media screen and (max-width: 768px) {
   
-  body { 
+  /* body { 
     height: 100svb;
-  }
+  } */
 
   #mid-Container {
   display: flex;
@@ -981,4 +981,5 @@ button a {
     /* padding: 1%; */
     margin-top: 1rem;
   }
+  
 }
